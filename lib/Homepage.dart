@@ -20,13 +20,6 @@ class HomePage extends StatelessWidget {
             width: 2,
           ),
         ),
-        child: const TextField(
-          decoration: InputDecoration(
-            hintText: "Name",
-            border: InputBorder.none,
-            contentPadding: EdgeInsets.only(left: 10),
-          ),
-        ),
       );
     }
 
