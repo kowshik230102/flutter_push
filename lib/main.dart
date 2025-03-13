@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:practice/Screen/Homepage.dart';
+import 'login_page.dart';
 
 void main() {
-  runApp(const Myapp());
+  runApp(MyApp());
 }
 
-class Myapp extends StatelessWidget {
-  const Myapp({super.key});
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return MaterialApp(debugShowCheckedModeBanner: false, home: HomePage());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: LoginPage(),
+    );
   }
 }
